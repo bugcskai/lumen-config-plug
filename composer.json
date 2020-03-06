@@ -1,0 +1,22 @@
+{
+    "name": "bugcskai/lumen-config-plug",
+    "description": "Fisrt lumen config plug",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KaiC",
+            "email": "kaic@mindarc.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/lumen-framework": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MindArc": "src/mindarc-config/"
+        }
+    }
+}
