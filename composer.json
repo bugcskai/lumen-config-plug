@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MindArc": "src/mindarc-config/"
+            "MindArc\\": "src/mindarc-config/"
         }
     }
 }
