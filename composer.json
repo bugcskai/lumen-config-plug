@@ -18,5 +18,10 @@
         "psr-4": {
             "MindArc\\": "src/mindarc-config/"
         }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php artisan --path=vendor/bugcskai/lumen-config-plug/migrations/2020_03_06_install.php"
+        ]
     }
 }
