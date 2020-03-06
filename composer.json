@@ -3,6 +3,7 @@
     "description": "Fisrt lumen config plug",
     "type": "library",
     "license": "MIT",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "KaiC",
@@ -20,7 +21,7 @@
         }
     },
     "scripts": {
-        "post-update-cmd": [
+        "post-install-cmd": [
             "php artisan --path=vendor/bugcskai/lumen-config-plug/migrations/2020_03_06_install.php"
         ]
     }
